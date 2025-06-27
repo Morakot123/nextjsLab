@@ -1,5 +1,6 @@
-import MainHeader from './Components/mainheader';
+import MainHeader from '@/Components/MainHeader';
 import './globals.css';
+
 
 export const metadata = {
   title: 'Lab02-Next.js Page Routing & Rendering',
@@ -11,7 +12,6 @@ export default function RootLayout({ children }) {
     <html lang="th">
       <body>
         <div id="page">
-          <MainHeader />
           {children}
         </div>
       </body>
